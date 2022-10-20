@@ -11,5 +11,38 @@ The task is to Implement a simple Book Register Web Form using MEAN Stack.
 Step 1 - Connect to AWS server using Ubuntu 20.04.5 LTS
        - Changed Hostname to ProjectMEANstackserver to identify project name.
        
-![Sreenshot1]()       
-
+![images]()   
+     
+     
+     - Update and upgrade Ubuntu
+     
+     
+     ![images for upgrade and update]()
+     
+     
+     ##Installing **Node.Js**##
+     
+     
+     ## Installing **MongodDB**##
+     
+       - Start the Server
+       - Verify that service is up and running
+       
+       
+       ![images of mongodb]()
+       
+       
+       - Install **npm -Node** package manager
+       
+       - Install**body-parser** package
+       
+       
+       
+       ![images of npm and body-parser]()
+       
+       
+       
+         - Creating a Folder Named **BOOKS**
+         
+         
+         
