@@ -12,21 +12,27 @@ The task is to Implement a simple Book Register Web Form using MEAN Stack.
        
        - Changed Hostname to ProjectMEANstackserver to identify project name.
        
- ![imagesUpdate](Screenshot at Oct 20 18-04-05.png)
-    
+![images](Screenshot at Oct 20 16-53-24.png)
+
+
+
+- Updated and upgraded Ubuntu
      
      
-     - Update and upgrade Ubuntu
+![Updated](new2.png)
+
+![upgraded](new3.png)
      
      
-     ![images for upgrade and update]()
-     
-     
-     ##Installing **Node.Js**##
+   ## Installing  *Node.Js*
+
+![node](Screenshot at Oct 20 18-21-13.png)
+
+
      
      ![images for node.js]()
      
-     ## Installing **MongodDB**##
+  ## Installing **MongodDB**
      
        - Start the Server
        - Verify that service is up and running
@@ -35,9 +41,9 @@ The task is to Implement a simple Book Register Web Form using MEAN Stack.
        ![images of mongodb]()
        
        
-       - Install **npm -Node** package manager
+       - Install  npm-Node  package manager
        
-       - Install**body-parser** package
+       - Install ** body-parser ** package
        
        
        
@@ -140,3 +146,6 @@ The task is to Implement a simple Book Register Web Form using MEAN Stack.
          
          
          
+
+
+[def]: Screenshot.png
