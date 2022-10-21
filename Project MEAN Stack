@@ -22,6 +22,7 @@ Step 1 - Connect to AWS server using Ubuntu 20.04.5 LTS
      
      ##Installing **Node.Js**##
      
+     ![images for node.js]()
      
      ## Installing **MongodDB**##
      
@@ -43,6 +44,97 @@ Step 1 - Connect to AWS server using Ubuntu 20.04.5 LTS
        
        
          - Creating a Folder Named **BOOKS**
+         
+         - Initialize in the Book directory  and *npm* project
+         
+         - Added file **server.js** and pasted a web server code inside the **server.js**
+         
+         ![images of server.js command]()
+         
+         
+         
+         STEP 3 - ## INSTALLING EXPRESS AND SETTING UP ROUTES TO THE SERVER
+         
+            - Express is used to pass book information to and from the Mongodb database.
+            
+             - Installing **mongoose package**
+             
+             - Created another folder called "apps" in Books directory
+             
+             - Created File *routes.js* and pasted web code inside it.
+             
+             ![images of mongosse command and apps directory]()
+             
+             ![images of routes file and code inside]()
+             
+             
+             
+             
+             
+             - Created a folder named *models* in the apps directory.
+             
+             - In the *models* folder created a file named *book.js*
+             
+             - Pasted web codes inside the file *book.js*
+             
+             
+             ![images of folder models and file book.js]()
+             
+             ![images of web code inside the *book.js*]()
+             
+             
+             STEP 4 - ##ACCESS THE ROUTES WITH *AngularJS*
+             
+             - AngularJS provides a web frame work for creating dynamic views in the web applications.
+             
+             - Change directory back into *Books*
+             
+             - Created a folder named *Public*
+             
+             - changed directory into *public* folder and created file *script.js*
+             
+             ![images of the public folder and file scripts]()
+             
+             ![images of web code inside script.js]()
+             
+             
+             - In Public folder created file named *index.html*
+             
+             - Inserted web codes into *index.html*
+             
+             ![images of index.html file]()
+             
+             ![images of web code insides index.html]()
+             
+             
+             
+             
+             - Changed directory back to *Books*
+             
+             - Started the server 
+             
+             - Confirmation of server running
+             
+             ![images of server running]()
+             
+             
+             
+             - Opened New port TCP 3300 in the AWS web console inorder to access the BOOK REGISTER WEB APPLICATION.
+             
+             
+             ![images of port tcp 3300]()
+             
+             
+             - Accessing the BOOK REGISTER APPLICATION ON THE WEB using the public DNS
+             
+             
+             ![images of the completed BOOK REGISTER Application]()
+
+
+
+
+         
+         
          
          
          
