@@ -9,11 +9,11 @@ MEAN Stack is a combination of
 The task is to Implement a simple Book Register Web Form using MEAN Stack.
 
 **Step** 1 - *Connect to AWS server using Ubuntu 20.04.5 LTS*
-       
-       - Changed Hostname to ProjectMEANstackserver to identify project name.
-       
-![Ubuntu connection](new ubuntu conection.png)
 
+        - Connected to AWS server using Ubuntu
+        - Changed Hostname to ProjectMEANstackserver to identify project name.
+       
+![Ubuntu connection](new1...png)
 
 
 - Updated and upgraded Ubuntu
@@ -44,109 +44,122 @@ The task is to Implement a simple Book Register Web Form using MEAN Stack.
        
        - Starting the Server
        - Verifying that service is up and running
-       
 
-![images of mongodb start](mongodbstart.png)
+![images](new8.png)
 
        
-       - Install  npm-Node  package manager
+       - Install npm-Node package manager
 
-![npm install](npminstal.png)
+![npm install](npm.png)
        
-       - Install ** body-parser ** package
-       
-       
-       
-       ![images of npm and body-parser]()
+       - Install body-parser package
        
        
+![images of npm and body-parser](Bodyparser.png)
        
-         - Creating a Folder Named **BOOKS**
+       
+       
+         - Creating a Folder Named BOOKS
          
-         - Initialize in the Book directory  and *npm* project
+         - Initialize in the Book directory and npm project
          
-         - Added file **server.js** and pasted a web server code inside the **server.js**
+         - Added file server.js and pasted a web server code inside the server.js
          
-         ![images of server.js command]()
+![images of server.js command](books.png)
+
+![images](code.png)
          
          
          
-         STEP 3 - ## INSTALLING EXPRESS AND SETTING UP ROUTES TO THE SERVER
+STEP 3 - *INSTALLING **Express** AND SETTING UP **Routes** TO THE SERVER*
          
             - Express is used to pass book information to and from the Mongodb database.
             
-             - Installing **mongoose package**
+             - Installing mongoose package
              
              - Created another folder called "apps" in Books directory
              
-             - Created File *routes.js* and pasted web code inside it.
+             - Created File routes.js and pasted web code inside it.
              
-             ![images of mongosse command and apps directory]()
-             
-             ![images of routes file and code inside]()
-             
+            
+![images of mongosse command and apps directory](mongoose.png)
              
              
-             
-             
-             - Created a folder named *models* in the apps directory.
-             
-             - In the *models* folder created a file named *book.js*
-             
-             - Pasted web codes inside the file *book.js*
-             
-             
-             ![images of folder models and file book.js]()
-             
-             ![images of web code inside the *book.js*]()
-             
-             
-             STEP 4 - ##ACCESS THE ROUTES WITH *AngularJS*
-             
-             - AngularJS provides a web frame work for creating dynamic views in the web applications.
-             
-             - Change directory back into *Books*
-             
-             - Created a folder named *Public*
-             
-             - changed directory into *public* folder and created file *script.js*
-             
-             ![images of the public folder and file scripts]()
-             
-             ![images of web code inside script.js]()
-             
-             
-             - In Public folder created file named *index.html*
-             
-             - Inserted web codes into *index.html*
-             
-             ![images of index.html file]()
-             
-             ![images of web code insides index.html]()
+![images of routes file and code inside](codes.png)
+
+![routes](codesroutes.png)
              
              
              
+             - Created a folder named models in the apps directory.
              
-             - Changed directory back to *Books*
+             - In the models folder created a file named book.js
+             
+             - Pasted web codes inside the file book.js
+             
+             
+![images of folder models and file book.js](model.png)
+             
+![images of web code inside the *book.js*](codes3.png)
+
+![images of cat book.js code](code4.png)
+             
+             
+
+
+STEP 4 - *ACCESS THE **Routes** WITH *AngularJS**
+             
+            
+ - *AngularJS* provides a web frame work for creating dynamic views in the web applications.
+             
+             - Change directory back into Books
+             
+             - Created a folder named Public
+             
+             - changed directory into public folder and created file script.js
+             
+![images of the public folder and file scripts](model.png)
+             
+![images of web code inside script.js](code5.png)
+
+![images of cat script.js](code5..png)
+             
+             
+             - In Public folder created file named index.html
+              
+             - Inserted web codes into index.html
+             
+![images of index.html file](code6.png)
+             
+![images of web code insides index.html](code6..png)
+             
+             
+             
+             
+             - Changed directory back to Books
              
              - Started the server 
              
              - Confirmation of server running
              
-             ![images of server running]()
+![images of server running](server.png)
              
              
              
              - Opened New port TCP 3300 in the AWS web console inorder to access the BOOK REGISTER WEB APPLICATION.
              
              
-             ![images of port tcp 3300]()
+![images of port tcp 3300](tcp.png)
+
+![images of curl](curl.png)
              
              
              - Accessing the BOOK REGISTER APPLICATION ON THE WEB using the public DNS
              
              
-             ![images of the completed BOOK REGISTER Application]()
+![images of the completed BOOK REGISTER Application](complete.png)
+
+![images fo web book register completed](webform.png)
 
 
 
@@ -154,8 +167,3 @@ The task is to Implement a simple Book Register Web Form using MEAN Stack.
          
          
          
-         
-         
-
-
-[def]: Screenshot.png
