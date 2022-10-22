@@ -1,4 +1,4 @@
-# DevOps Projects
+# MEAN Stack Deployment
 
 The task is to Implement a simple **Book Register Web Form** using MEAN Stack.
 
