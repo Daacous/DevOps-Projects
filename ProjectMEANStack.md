@@ -39,9 +39,13 @@ The task is to Implement a simple Book Register Web Form using MEAN Stack.
 ![images for node.js](Images/new5.png)
      
   ## Installing **MongodDB**
+  
+     - Firstly, installed mongodb certificates
 
 
 ![images of mongodb certifcate](Images/new7.png) 
+
+    - mongodb command
        
 
 ![images of mongodb](Images/mongodb.png)    
@@ -61,7 +65,6 @@ The task is to Implement a simple Book Register Web Form using MEAN Stack.
        
        
 ![images of npm and body-parser](Images/Bodyparser.png)
-       
        
        
          - Creating a Folder Named BOOKS
