@@ -13,30 +13,30 @@ The task is to Implement a simple Book Register Web Form using MEAN Stack.
         - Connected to AWS server using Ubuntu
         - Changed Hostname to ProjectMEANstackserver to identify project name.
        
-![Ubuntu connection](new1...png)
+![Ubuntu connection](Images/new1...png)
 
 
 - Updated and upgraded Ubuntu
      
      
-![Updated](new2.png)
+![Updated](Images/new2.png)
 
-![upgraded](new3.png)
+![upgraded](Images/new3.png)
      
      
    ## Installing  *Node.Js*
 
-![node certificate](new4.png)
+![node certificate](Images/new4.png)
 
-![node.js](new6.png)
+![node.js](Images/new6.png)
 
    
-![images for node.js](new5.png)
+![images for node.js](Images/new5.png)
      
   ## Installing **MongodDB**
 
 
-![images of mongodb certifcate](new7.png) 
+![images of mongodb certifcate](Images/new7.png) 
        
 
 ![images of mongodb](mongodb.png)    
