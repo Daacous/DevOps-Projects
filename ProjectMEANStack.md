@@ -11,7 +11,8 @@ The task is to Implement a simple Book Register Web Form using MEAN Stack.
 **Step** 1 - *Connect to AWS server using Ubuntu 20.04.5 LTS*
 
         - Connected to AWS server using Ubuntu
-        - Changed Hostname to ProjectMEANstackserver to identify project name.
+        - Changed Hostname to ProjectMEANstackserver to identify project name with "sudo  /etc/hostname"
+       
        
 ![Ubuntu connection](Images/new1...png)
 
@@ -25,8 +26,12 @@ The task is to Implement a simple Book Register Web Form using MEAN Stack.
      
      
    ## Installing  *Node.Js*
+   
+   - Firstly, Installed node.js certificates
 
 ![node certificate](Images/new4.png)
+
+   - Node.js commands
 
 ![node.js](Images/new6.png)
 
@@ -73,7 +78,7 @@ The task is to Implement a simple Book Register Web Form using MEAN Stack.
          
 STEP 3 - *INSTALLING **Express** AND SETTING UP **Routes** TO THE SERVER*
          
-            - Express is used to pass book information to and from the Mongodb database.
+             - Express is used to pass book information to and from the Mongodb database.
             
              - Installing mongoose package
              
