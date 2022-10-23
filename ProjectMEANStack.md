@@ -39,23 +39,23 @@ The task is to Implement a simple Book Register Web Form using MEAN Stack.
 ![images of mongodb certifcate](Images/new7.png) 
        
 
-![images of mongodb](mongodb.png)    
+![images of mongodb](Images/mongodb.png)    
        
        
        - Starting the Server
        - Verifying that service is up and running
 
-![images](new8.png)
+![images](Images/new8.png)
 
        
        - Install npm-Node package manager
 
-![npm install](npm.png)
+![npm install](Images/npm.png)
        
        - Install body-parser package
        
        
-![images of npm and body-parser](Bodyparser.png)
+![images of npm and body-parser](Images/Bodyparser.png)
        
        
        
@@ -65,9 +65,9 @@ The task is to Implement a simple Book Register Web Form using MEAN Stack.
          
          - Added file server.js and pasted a web server code inside the server.js
          
-![images of server.js command](books.png)
+![images of server.js command](Images/books.png)
 
-![images](code.png)
+![images](Images/code.png)
          
          
          
@@ -82,12 +82,12 @@ STEP 3 - *INSTALLING **Express** AND SETTING UP **Routes** TO THE SERVER*
              - Created File routes.js and pasted web code inside it.
              
             
-![images of mongosse command and apps directory](mongoose.png)
+![images of mongosse command and apps directory](Images/mongoose.png)
              
              
-![images of routes file and code inside](codes.png)
+![images of routes file and code inside](Images/codes.png)
 
-![routes](codesroutes.png)
+![routes](Images/codesroutes.png)
              
              
              
@@ -98,11 +98,11 @@ STEP 3 - *INSTALLING **Express** AND SETTING UP **Routes** TO THE SERVER*
              - Pasted web codes inside the file book.js
              
              
-![images of folder models and file book.js](model.png)
+![images of folder models and file book.js](Images/model.png)
              
-![images of web code inside the *book.js*](codes3.png)
+![images of web code inside the *book.js*](Images/codes3.png)
 
-![images of cat book.js code](code4.png)
+![images of cat book.js code](Images/code4.png)
              
              
 
@@ -118,20 +118,20 @@ STEP 4 - *ACCESS THE **Routes** WITH *AngularJS**
              
              - changed directory into public folder and created file script.js
              
-![images of the public folder and file scripts](model.png)
+![images of the public folder and file scripts](Images/model.png)
              
-![images of web code inside script.js](code5.png)
+![images of web code inside script.js](Images/code5.png)
 
-![images of cat script.js](code5..png)
+![images of cat script.js](Images/code5..png)
              
              
              - In Public folder created file named index.html
               
              - Inserted web codes into index.html
              
-![images of index.html file](code6.png)
+![images of index.html file](Images/code6.png)
              
-![images of web code insides index.html](code6..png)
+![images of web code insides index.html](Images/code6..png)
              
              
              
@@ -142,24 +142,24 @@ STEP 4 - *ACCESS THE **Routes** WITH *AngularJS**
              
              - Confirmation of server running
              
-![images of server running](server.png)
+![images of server running](Images/server.png)
              
              
              
              - Opened New port TCP 3300 in the AWS web console inorder to access the BOOK REGISTER WEB APPLICATION.
              
              
-![images of port tcp 3300](tcp.png)
+![images of port tcp 3300](Images/tcp.png)
 
-![images of curl](curl.png)
+![images of curl](Images/curl.png)
              
              
              - Accessing the BOOK REGISTER APPLICATION ON THE WEB using the public DNS
              
              
-![images of the completed BOOK REGISTER Application](complete.png)
+![images of the completed BOOK REGISTER Application](Images/complete.png)
 
-![images fo web book register completed](webform.png)
+![images fo web book register completed](Images/webform.png)
 
 
 
