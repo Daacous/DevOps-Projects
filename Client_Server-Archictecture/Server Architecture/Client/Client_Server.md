@@ -14,16 +14,16 @@
 *Step 1 - Created and configured two Linux based virtual servers in AWS using Ubuntu 20.04 LTS*
 
 
- Server A - Mysql_database_server
+   Server A - Mysql_database_server
 
- Server B - Mysql_client_server
+   Server B - Mysql_client_server
 
 ![images servers](Images/screenshot1.png)
 
 *Step 2 - On Mysql_database-server terminal*  ran command : 
 
  
-  sudo vi /etc/hostname
+   sudo vi /etc/hostname
 
 
 To change Hostname - 
@@ -32,30 +32,30 @@ To change Hostname -
 ![hostnamechanged](Images/hostnamechanged.png)
   
   
-  sudo apt update
+   sudo apt update
 
 to update server.
 
 Then install MYSQL Server software -  
 
-  sudo apt install mysql-server 
+   sudo apt install mysql-server 
 
 
 ![images of update](Images/loginubuntu3.png)
 
 *Step 3 - On Mysql_client_server terminal* ran command: 
 
- sudo vi /etc/hostname
+  sudo vi /etc/hostname
 
 To change Hostname - 
 
-  sudo apt update
+   sudo apt update
 
 to update server
 
 then install MYSQL client software - 
 
- sudo apt install mysql-client 
+  sudo apt install mysql-client 
 
 
 ![images of client server update](Images/clientlogin.png)
@@ -78,7 +78,7 @@ then install MYSQL client software -
 
 Then ran command to run security script that comes pre-installed with MYSQL which will remove insecure default settings
 
-  ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';
+   ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';
 
 
    sudo mysql_secure_installation
@@ -89,13 +89,13 @@ Created user database on MySQL and permissions
 
 
   
-  CREATED USER 'remote-clientuser'@'%' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';
+   CREATED USER 'remote-clientuser'@'%' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';
 
 
-  CREATE DATABASE project5_database;
+   CREATE DATABASE project5_database;
 
 
-  GRANT ALL ON project5_database.*  TO 'remote-clientuser'@'%' WITH GRANT OPTION;
+   GRANT ALL ON project5_database.*  TO 'remote-clientuser'@'%' WITH GRANT OPTION;
 
 
 
@@ -103,17 +103,17 @@ Created user database on MySQL and permissions
 ![createusers](Images/database.png)
 
 
-  sudo mysql -p
+   sudo mysql -p
 
 
 
 *Step 6 - configured MySQL to allow connections from remote hosts iwth command* 
 
   
-  sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
+   sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
 
   
-  sudo systemctl restart mysql
+   sudo systemctl restart mysql
 
 
 
