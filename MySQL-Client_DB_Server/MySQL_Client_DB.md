@@ -29,7 +29,7 @@
 
 
 
-Then install MYSQL Server software 
+Then install MYSQL Server software :
 
     sudo apt install mysql-server 
 
@@ -45,7 +45,7 @@ Then install MYSQL Server software
 
 
 
-then installed MYSQL client software - 
+then installed MYSQL client software :
 
     sudo apt install mysql-client 
 
@@ -59,11 +59,11 @@ then installed MYSQL client software -
 ![images port 3306](Images/securitygroup.png)
 
 
-**Step 5 - on the MYSQL_databaseserver ran command** 
+**Step 5 - on the MYSQL_database_server ran command** :
 
     sudo mysql
 
-Then command to run security script that comes pre-installed with MYSQL which will remove insecure default settings
+Then the command to run the security script that comes pre-installed with MYSQL which will remove insecure default settings
 
     ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';
 
@@ -100,7 +100,7 @@ Replaced '127.0.0.1' to '0.0.0.0.0' in MySQL config file  to connect to MySQL_cl
 
 ![images of binding](Images/binding.png)
 
-**Step 6 - Connected MySQL_databaseserver remotely to MySQL_clientserver in theMySQL utility**
+**Step 6 - Connected MySQL_database_server remotely to MySQL_clientserver in theMySQL utility**
 
 ![images of remote connection](Images/connectiondatabase.png)
 
