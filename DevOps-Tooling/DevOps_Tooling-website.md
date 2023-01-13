@@ -101,20 +101,32 @@ Created mount points on /mnt directory for the logical volumes as follow:
 
 
 
-
-
-
 ## STEP 2 — CONFIGURED THE DATABASE SERVER
 
 
-
 - Install MySQL server
-Create a database and name it tooling
-- Created a database user and named it webaccess
-- Granted permission to webaccess user on tooling database to do anything only from the webservers `subnet cidr`
+Created a database and named it Tooling
+- Created a database user and named it Webaccess
+- Granted permission to Webaccess user on Tooling database to do anything only from the webservers `subnet cidr`
 
 ![images of mysl](Images/TOOLING/databaseterminal.png)
+
+
+![images of tooling conneted](Images/TOOLING/mysqlinstallation.png)
+
+
+![images](Images/TOOLING/mysql-serverconnection.png)
+
+![images](Images/TOOLING/mysqldatabses.png)
+
+
 ![images of mysl datbase](Images/TOOLING/bindaddy.png)
+
+ 
+ 
+ ![images of mysql coonected](Images/TOOLING/mysql.png)
+
+
 
 
 
@@ -146,8 +158,7 @@ Verified that NFS was mounted successfully by running *df -h*.
 ## Install Remi’s repository, Apache and PHP
 
 
- 
- 
+
     sudo yum install httpd -y
 
     sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
@@ -173,8 +184,7 @@ Verified that NFS was mounted successfully by running *df -h*.
 
 ## Repeated same steps for another 2 Web Servers
 
- ![images of nfs and wenserver link](Images/TOOLING/history-nfs.png)
-
+ 
  ![images](Images/TOOLING/historywebserver-good.png)
 
   ![images of nfs and wenserver link](Images/TOOLING/historywebsertver.png)
@@ -199,17 +209,7 @@ Verified that NFS was mounted successfully by running *df -h*.
 - Updated the website’s configuration to connect to the database
  via */var/www/html/functions*.php file)*. Applied *tooling-db.sql* script* to the database.
 
- ![images of tooling conneted](Images/TOOLING/mysqlinstallation.png)
-
-
-![images](Images/TOOLING/mysql-serverconnection.png)
-
-![images](Images/TOOLING/mysqldatabses.png)
-
-
- ![images of mysql coonected](Images/TOOLING/mysql.png)
-
-
+ 
  ![images of website](Images/TOOLING/website.png)
 
  ![images of mysql coonected](Images/TOOLING/web3.png)
